@@ -4,7 +4,7 @@ Adji Pratama
 193040101
 https://github.com/adjprtma/prakweb2021_oophp_193040101
 Pertemuan 2 - 17 September 2021
-Mempelajari Constructor
+Mempelajari Object Type
 */ 
 
 class Produk {
@@ -25,13 +25,21 @@ class Produk {
     }
 }
 
+
+class CetakInfoProduk {
+    public function cetak( Produk $produk ) {
+        $str = "{$produk->judul} | {$produk->getLabel()} (Rp. {$produk->harga})";
+        return $str;
+    }
+}
+
 $produk1 = new Produk("Naruto", "Masahi Kishimoto", "Shonen Jump", 30000);
 $produk2 = new Produk("Uncharted", "Neil Druckmann", "Sony Computer", 25000);
-$produk3 = new Produk("Dragon Ball");
 
 echo "Komik : " . $produk1->getLabel();
 echo "<br>";
 echo "Game : " . $produk2->getLabel();
 echo "<br>";
-var_dump($produk3);
+$infoProduk1 = new CetakInfoProduk();
+echo $infoProduk1->cetak($produk1);
 ?>
