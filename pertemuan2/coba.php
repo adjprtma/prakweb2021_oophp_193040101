@@ -4,6 +4,7 @@ Adji Pratama
 193040101
 https://github.com/adjprtma/prakweb2021_oophp_193040101
 Pertemuan 2 - 17 September 2021
+Praktikum Web
 Mempelajari Class & Object
 */ 
 
