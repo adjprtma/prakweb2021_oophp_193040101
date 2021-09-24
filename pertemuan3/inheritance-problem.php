@@ -2,7 +2,7 @@
 /* 
 Adji Pratama
 193040101
-https://github.com/adjprtma/prakweb2021_oophp_193040101
+https://github.com/adjprtma/prakweb2021_oophp_193040101/tree/main
 Pertemuan 3 - 24 September 2021
 Praktikum Web 
 OOP DASAR pada PHP #6 - Inheritance (Bagian 1)
